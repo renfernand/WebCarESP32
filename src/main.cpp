@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char* SSID = "LASEC";
-const char* password = "lasecca123";
+const char* SSID = "Rede udi";
+const char* password = "1j4b7i2g$4";
 WebServer server(80);
 
 // Definições dos pinos
@@ -300,7 +300,7 @@ void handleNotFound() {
 }
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
 
   pinMode(M_DIREITA_HORARIO, OUTPUT);
   pinMode(M_DIREITA_ANTI, OUTPUT);
